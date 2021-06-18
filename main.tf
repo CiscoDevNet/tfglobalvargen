@@ -85,7 +85,7 @@ output "masterinstance" {
         value = var.masterinstance
 }
 variable "mgmtcfgetcd" {
-  type = string
+  type = bool 
 }
 output "mgmtcfgetcd" {
         value = var.mgmtcfgetcd
