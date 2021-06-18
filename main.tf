@@ -10,12 +10,6 @@ output "ikswsname" {
         value = var.ikswsname
 }
 #Output all global variables
-variable "tforg" {
-  type = string
-}
-output "tforg" {
-        value = var.tforg
-}
 variable "password" {
   type = string
 }
