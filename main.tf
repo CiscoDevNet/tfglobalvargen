@@ -89,6 +89,7 @@ variable "mgmtcfgetcd" {
 }
 output "mgmtcfgetcd" {
         value = var.mgmtcfgetcd
+	sensitive = true
 }
 variable "mgmtcfglbcnt" {
   type = string
